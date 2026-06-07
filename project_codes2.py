@@ -3622,15 +3622,44 @@ student_ai_heading=student_ai.split("\n")[0]
 student_ai_raw_data=student_ai.split("\n")[1:]
 #print(student_ai_raw_data)
 
-# converted to list
-student_ai_data=list(student_ai_raw_data)
-#print(student_ai_data)
+# define a empty dictonary
+student_dict={}
 
-# convert each student in a list for searchind and dpoing operations 
-student_data=[x.split(",")for x in student_ai_data]
-#print(student_data)
 
-print(student_data[0])
+# converted to dict
+for x in student_ai_raw_data:
+    student_dict[x.split(",")[0]]=tuple(x.split(",")[1:])
+
+#print(student_dict)
+
+# creating nested dict to access each student and their details
+nested_dict={}
+
+# append student details in key value pairs 
+for key,value in student_dict.items():
+     nested_dict[key]={
+        "Student_Name":key,
+        "College_Name":value[0],
+        'Stream':value[1],
+        "Year_of_study":value[2],
+        "AI_Tools_Used":value[3],
+        "Daily_Usage_Hours":value[4],
+        "Use_Cases":value[5],
+        "Trust_in_AI_Tools":value[6],
+        "Impact_on_Grades":value[7],
+        "Do_Professors_Allow_Use":value[8],
+        "Preferred_AI_Tool":value[9],
+        "Awareness_Level":value[10],
+        "Willing_to_Pay_for_Access":value[11],
+        "State":value[12],
+        "Device_Used":value[13],
+        "Internet_Access":value[14]
+    }
+     
+     
+print(nested_dict)
+
+
 
 
 
