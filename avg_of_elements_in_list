@@ -1,0 +1,8 @@
+list=[124,254,671,745,965,324,415,654,854,652]
+sum=0
+avg=0
+for x in list:
+      sum+=x
+      avg=sum/len(list)
+print(sum)
+print(avg)
