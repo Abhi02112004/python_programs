@@ -51,4 +51,9 @@ for x in employees:
     avg=sum/len(employees)
 print("The sum of total salaries are :",sum)
 print("The average of total salaries are :",avg)
-        
+
+#print first employee details
+print("The first employee details are :",employees[0])
+
+# print last employee details
+print("The last employee details are :",employees[-1])
