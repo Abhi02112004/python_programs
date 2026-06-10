@@ -57,3 +57,20 @@ print("The first employee details are :",employees[0])
 
 # print last employee details
 print("The last employee details are :",employees[-1])
+
+# print all departments
+print("All departments are :")
+dept_set={}
+for x in employees:
+    dept_set=x["department"]
+print(dept_set)
+
+# find the employee with the lowest salary
+lowest_emp=employees[0]
+print("The lowest salary employee details are :")
+for x in employees:
+      if x["salary"]<lowest_emp["salary"]:
+          lowest_emp=x
+print("The employee name is :",lowest_emp["name"])
+print("The employee name is :",lowest_emp["salary"])
+

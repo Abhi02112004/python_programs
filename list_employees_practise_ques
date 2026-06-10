@@ -1,0 +1,59 @@
+Intermediate Level
+Find the employee with the lowest salary.
+Find the youngest employee.
+Find the oldest employee.
+Count employees in the Data department.
+Count employees in the HR department.
+Count employees in each department.
+Calculate total salary department-wise.
+Calculate average salary department-wise.
+Find the highest-paid employee in each department.
+Find the lowest-paid employee in each department.
+Print names of employees in the IT department.
+Print names of employees in Finance.
+Print employees whose names start with "A".
+Print employees whose names end with "a".
+Find all employees aged between 22 and 25.
+Advanced Logic Questions
+Create a list containing only employee names.
+Create a list containing only salaries.
+Create a list of employees earning above average salary.
+Sort employees by salary (ascending).
+Sort employees by salary (descending).
+Sort employees by age.
+Find the second highest salary.
+Find the third highest salary.
+Find the difference between highest and lowest salary.
+Find employees having the same department.
+Find the department with the maximum employees.
+Find the department with the highest average salary.
+Find employees earning more than the average salary of their department.
+Find employees earning less than the average salary of their department.
+Group employees department-wise into separate lists.
+Data Engineering Style Questions
+Convert the employee data into a dictionary where key = id and value = name.
+Create a new list containing only Data department employees.
+Create a new list containing only employees with salary > 45,000.
+Add a bonus of 10% to every employee's salary.
+Create a new field annual_salary = salary * 12.
+Create a new field tax = 10% of salary.
+Find the total annual payroll.
+Find employees whose salary is above the company's average salary.
+Find duplicate departments.
+Generate a department-wise report:
+Employee Count
+Total Salary
+Average Salary
+Highest Salary
+Lowest Salary
+Challenge Questions (Interview Level)
+Find the top 3 highest-paid employees.
+Find the top 3 youngest employees.
+Find employees whose salary is closest to the average salary.
+Find the median salary.
+Create a ranking of employees based on salary.
+Find employees who are older than the average age.
+Find employees who belong to the department with the most employees.
+Find the percentage contribution of each department to the total payroll.
+Build a salary histogram using Python.
+Export the employee data to CSV.
