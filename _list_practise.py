@@ -74,3 +74,44 @@ for x in employees:
 print("The employee name is :",lowest_emp["name"])
 print("The employee name is :",lowest_emp["salary"])
 
+# find the youngest employee
+youngest=employees[0]
+for x in employees:
+    if x["age"]<youngest["age"]:
+        youngest=x
+print("Name :",youngest["name"])
+print("Age :",youngest["age"])
+
+# find the oldest employee
+oldest=employees[0]
+for x in employees:
+    if x["age"]>oldest["age"]:
+        oldest=x
+print("Name :",oldest["name"])
+print("Age :",oldest["age"])
+
+# count the number of employees the Data department
+count=0
+for x in employees:
+    if x["department"]=="Data":
+        count+=1
+print(f'The number of employees in Data Department are :{count}')
+
+# count the number of employees the HR department
+count=0
+for x in employees:
+    if x["department"]=="HR":
+        count+=1
+print(f'The number of employees in HR Department are :{count}')
+
+ # count the number of employees in each department
+dept_count={}
+for emp in employees:
+      dept=emp["department"]
+      if dept in dept_count:
+        dept_count[dept]+=1
+      else:
+        dept_count[dept]=1
+print(dept_count)
+
+# calculate total salary department wise
